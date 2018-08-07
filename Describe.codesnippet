@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>extend_void_nonA</string>
+	<string>Describe</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>ExtendImplementationOfVoidMethodWithoutArguments([&lt;#targetClass#&gt; class], @selector(&lt;#targetSelector#&gt;), ^(&lt;#targetClass#&gt; *selfObject) {
-        &lt;#custom extend#&gt;
-    });</string>
+	<string>/** &lt;#Describe#&gt; */</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>61D9E89B-0189-4153-8FFA-7B8C2EE05F9D</string>
+	<string>A72769CA-3C2C-45D4-8A9A-9C3531A35F91</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Describe</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Extend Implementation Of Void Return Non Argument</string>
+	<string>Describe</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

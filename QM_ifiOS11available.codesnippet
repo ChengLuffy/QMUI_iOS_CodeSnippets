@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>if (@available(iOS 11, *)) {
+	<string>if (@available(iOS &lt;#version#&gt;, *)) {
     &lt;#statements#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
