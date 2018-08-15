@@ -22,11 +22,8 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    static NSString *identifier = @"cell";
-    &lt;#UITableViewCell#&gt; *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
-    if (!cell) {
-        cell = [[&lt;#UITableViewCell#&gt; alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
-    }
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
+    
     return cell;
 }
 
